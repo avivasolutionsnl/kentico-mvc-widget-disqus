@@ -1,0 +1,39 @@
+﻿@model Aviva.Kentico.Widget.Disqus.Models.Widgets.DisqusWidgetViewModel
+
+<div id="disqus_thread"></div>
+
+@if (@Model.DisqusShortName != null)
+{
+    <script>
+    var disqus_config = function () {
+    @{
+        if (!string.IsNullOrEmpty(Model.PageUrl)){
+        @:this.page.url = '@Model.PageUrl';
+        }
+        if (!string.IsNullOrEmpty(Model.PageIdentifier)){
+        @:this.page.identifier = '@Model.PageIdentifier';
+        }
+        if (!string.IsNullOrEmpty(Model.PageTitle)){
+        @:this.page.title = '@Model.PageTitle';
+        }
+        if (!string.IsNullOrEmpty(Model.PageCategoryId)){
+        @:this.page.category_id = '@Model.PageCategoryId';
+        }
+    }
+    };
+
+    (function () {
+        {
+            var d = document, s = d.createElement('script');
+            s.src = '//' + '@Model.DisqusShortName' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+}
+else
+{
+    <p>Not yet setup.</p>
+}

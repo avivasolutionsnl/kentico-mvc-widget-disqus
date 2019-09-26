@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Aviva.Kentico.Widget.Disqus</id>
+    <version>$version$</version>
+    <authors>Aviva Solutions</authors>
+    <owners>Aviva Solutions</owners>
+    <title>Aviva Kentico Widget Disqus</title>
+    <iconUrl>https://www.avivasolutions.nl/assets/favicon/favicon.ico</iconUrl>
+    <projectUrl>https://github.com/avivasolutionsnl/kentico-mvc-widget-disqus</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Disqus widget for Kentico</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright ©  2019 Aviva Solutions</copyright>
+    <language>nl-NL</language>
+    <tags>kentico web mvc disqus comments aspnet aspnetmvc</tags>
+    <dependencies>
+      <dependency id="Kentico.Libraries" version="12.0.38" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Controllers\**\*.cs" target="content\Controllers" />
+    <file src="Models\**\*.cs" target="content\Models" />
+    <file src="Views\Shared\**\*.cshtml" target="content\Views\Shared" />
+    <file src="App_Data\Global\Resources\Aviva.Kentico.Widget.Disqus.resx" target="content\App_Data\Global\Resources\Aviva.Kentico.Widget.Disqus.resx" />
+  </files>
+</package>
