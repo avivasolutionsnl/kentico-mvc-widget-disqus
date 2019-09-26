@@ -13,19 +13,19 @@ namespace Aviva.Kentico.Widget.Disqus.Models.Widgets
     public class DisqusWidgetProperties : IWidgetProperties
     {
         [Required]
-        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.DisqusShortName$}", Order = 1)]
+        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.DisqusShortName$}", ExplanationText = "{$Aviva.Kentico.Mvc.Widget.Disqus.DisqusShortNameExplanation$}", Order = 1)]
         public string DisqusShortName { get; set; }
 
-        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageUrl$}", Order = 2)]
+        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageUrl$}", ExplanationText = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageUrlExplentation$}", Order = 2)]
         public string PageUrl { get; set; }
 
-        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageIdentifier$}", Order = 3)]
+        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageIdentifier$}", ExplanationText = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageIdentifierExplanation$}", Order = 3)]
         public string PageIdentifier { get; set; }
 
-        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageTitle$}", Order = 4)]
+        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageTitle$}", ExplanationText = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageTitleExplanation$}", Order = 4)]
         public string PageTitle { get; set; }
 
-        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageCategoryId$}", Order = 5)]
+        [EditingComponent(TextInputComponent.IDENTIFIER, Label = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageCategoryId$}", ExplanationText = "{$Aviva.Kentico.Mvc.Widget.Disqus.PageCategoryIdExplanation$}", Order = 5)]
         public string PageCategoryId { get; set; }
     }
 }

@@ -19,9 +19,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Controllers\**\*.cs" target="content\Controllers" />
-    <file src="Models\**\*.cs" target="content\Models" />
-    <file src="Views\Shared\**\*.cshtml" target="content\Views\Shared" />
-    <file src="App_Data\Global\Resources\Aviva.Kentico.Widget.Disqus.resx" target="content\App_Data\Global\Resources\Aviva.Kentico.Widget.Disqus.resx" />
+    <file src="Aviva.Kentico.Widget.Disqus\Controllers\**\*.cs" target="content\Controllers" />
+    <file src="Aviva.Kentico.Widget.Disqus\Models\**\*.cs" target="content\Models" />
+    <file src="Aviva.Kentico.Widget.Disqus\Views\Shared\**\*.cshtml" target="content\Views\Shared" />
+    <file src="Aviva.Kentico.Widget.Disqus\App_Data\Global\Resources\Aviva.Kentico.Widget.Disqus.resx" target="content\App_Data\Global\Resources\Aviva.Kentico.Widget.Disqus.resx" />
   </files>
 </package>

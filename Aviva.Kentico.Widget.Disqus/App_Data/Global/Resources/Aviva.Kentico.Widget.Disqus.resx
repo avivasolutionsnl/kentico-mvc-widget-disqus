@@ -123,19 +123,34 @@
   <data name="Aviva.Kentico.Mvc.Widget.Disqus.DisqusShortName" xml:space="preserve">
     <value>Disqus short name</value>
   </data>
+  <data name="Aviva.Kentico.Mvc.Widget.Disqus.DisqusShortNameExplanation" xml:space="preserve">
+    <value>The forum's shortname of your disqus. (Required)</value>
+  </data>
   <data name="Aviva.Kentico.Mvc.Widget.Disqus.Name" xml:space="preserve">
     <value>Disqus widget</value>
   </data>
   <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageCategoryId" xml:space="preserve">
     <value>Page category id</value>
   </data>
+  <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageCategoryIdExplanation" xml:space="preserve">
+    <value>The category to be used for the current page. Is used the first time the widget is initialized.</value>
+  </data>
   <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageIdentifier" xml:space="preserve">
     <value>Page identifier</value>
+  </data>
+  <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageIdentifierExplanation" xml:space="preserve">
+    <value>Tells Disqus how to identify the current page. If undefined the page's URL is used.</value>
   </data>
   <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageTitle" xml:space="preserve">
     <value>Page title</value>
   </data>
+  <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageTitleExplanation" xml:space="preserve">
+    <value>The title of the page. Is used the first time the widget is initialized. If undefined the title of the page is used.</value>
+  </data>
   <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageUrl" xml:space="preserve">
     <value>Page url</value>
+  </data>
+  <data name="Aviva.Kentico.Mvc.Widget.Disqus.PageUrlExplentation" xml:space="preserve">
+    <value>Tells Disqus the URL of the current page. If undedfined the window.location.href is used.</value>
   </data>
 </root>
