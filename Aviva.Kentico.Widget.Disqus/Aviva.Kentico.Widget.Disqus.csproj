@@ -569,9 +569,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Aviva.Kentico.Widget.Disqus.nuspec">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="app.config" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\Widgets\DisqusWidget\_DisqusWidget.cshtml" />

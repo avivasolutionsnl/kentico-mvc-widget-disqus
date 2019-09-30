@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Aviva.Kentico.Widget.Disqus</id>
     <version>$version$</version>
     <authors>Aviva Solutions</authors>
     <owners>Aviva Solutions</owners>
     <title>Aviva Kentico Widget Disqus</title>
-    <iconUrl>https://www.avivasolutions.nl/assets/favicon/favicon.ico</iconUrl>
+    <iconUrl>http://github.com/avivasolutionsnl/kentico-mvc-widget-disqus/raw/master/aviva-solutions.png</iconUrl>
     <projectUrl>https://github.com/avivasolutionsnl/kentico-mvc-widget-disqus</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Disqus widget for Kentico</description>
