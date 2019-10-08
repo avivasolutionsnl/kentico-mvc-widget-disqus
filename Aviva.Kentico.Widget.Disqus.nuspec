@@ -7,7 +7,9 @@
     <owners>Aviva Solutions</owners>
     <title>Aviva Kentico Widget Disqus</title>
     <iconUrl>http://github.com/avivasolutionsnl/kentico-mvc-widget-disqus/raw/master/aviva-solutions.png</iconUrl>
+    <icon>aviva-solutions.png</icon>
     <projectUrl>https://github.com/avivasolutionsnl/kentico-mvc-widget-disqus</projectUrl>
+    <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Disqus widget for Kentico</description>
     <releaseNotes></releaseNotes>
@@ -16,9 +18,10 @@
     <tags>kentico web mvc disqus comments aspnet aspnetmvc</tags>
     <dependencies>
       <dependency id="Kentico.Libraries" version="12.0.38" />
-    </dependencies>
+    </dependencies> 
   </metadata>
   <files>
+    <file src="aviva-solutions.png" />
     <file src="Aviva.Kentico.Widget.Disqus\Controllers\**\*.cs" target="content\Controllers" />
     <file src="Aviva.Kentico.Widget.Disqus\Models\**\*.cs" target="content\Models" />
     <file src="Aviva.Kentico.Widget.Disqus\Views\Shared\**\*.cshtml" target="content\Views\Shared" />

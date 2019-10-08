@@ -5,7 +5,7 @@ It can be added to your project by installing the nuget package. The source code
 ![Disqus widget](disqus_widget.gif)
 
 ## Installation
-1. Add the nuget package to your project
+1. Add the [nuget](https://www.nuget.org/packages/Aviva.Kentico.Widget.Disqus/) package to your project
 2. Source code will be added and can be easiliy modified
 
 ## License
