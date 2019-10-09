@@ -1,9 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 using Kentico.Forms.Web.Mvc;
 using Kentico.PageBuilder.Web.Mvc;
-using Kentico.Components.Web.Mvc.FormComponents;
-using System.Collections.Generic;
 
 namespace Aviva.Kentico.Widget.Disqus.Models.Widgets
 {
